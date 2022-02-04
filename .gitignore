@@ -1,0 +1,82 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# node compile
+/dist
+/node_modules
+
+# python compile
+*/*/__pycache__/
+*/*/*/__pycache__/
+*/*/*.pyc
+*/*/*/*.pyc
+
+# Dependency directories (remove the comment below to include it)
+/vendor
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+/.c9
+*.launch
+/.settings
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Env
+*.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# data
+/tw-data
+/us-data
+/eu-data
+/gn-data
+/export
+
+# env
+*.env
+*.dev.env
+
+# sample code
+/stock_traces_test
+
+# location query sql
+/stock_traces_sql
+
+# Unit test
+/coverage
+/.nyc_output
+
+# loadtest
+/loadtests
+
+# ignore test yaml
+process.yml
